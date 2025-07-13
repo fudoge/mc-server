@@ -1,19 +1,23 @@
 ## MINECRAFT SERVER
 
-For more information: 
 - [https://hub.docker.com/r/itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server)
 - [https://docker-minecraft-server.readthedocs.io/en/latest/](https://docker-minecraft-server.readthedocs.io/en/latest/)
+
+**Quickstart**
+```bash
+cp example.env .env
+```
 
 ```bash
 mkdir mc-data
 ```
 
-**RUN:**
+**UP(Run Your Server)**
 ```bash
 docker compose up -d
 ```
 
-**DOWN:**
+**DOWN**
 ```bash
 docker compose down
 ```
