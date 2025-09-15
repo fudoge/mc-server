@@ -5,7 +5,7 @@ services:
     ports:
       - 25565:25565
     volumes:
-    - ./mc-data:/data
+      - ./mc-data:/data
     env_file:
       - .env
 
