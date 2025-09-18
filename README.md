@@ -21,3 +21,13 @@ docker compose up -d
 ```bash
 docker compose down
 ```
+
+## How to run server 24/7 in MacOS
+```bash
+caffeinate -i -s docker compose up
+```
+
+```bash
+^C
+docker compose down
+```
