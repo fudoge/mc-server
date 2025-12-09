@@ -26,8 +26,7 @@ docker compose down
 ```bash
 caffeinate -i -s docker compose up
 ```
-
+or..
 ```bash
-^C
-docker compose down
+./mac-run.sh
 ```
